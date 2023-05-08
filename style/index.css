@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-footer {
+    height: 100vh;
+}
+
+.full-screen-img {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.square {
+    height: 200px;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.square img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.bg-teal {
+    background-color: #1D465C;
+    /* elige aquí el tono de azul petróleo que prefieras */
+}
+
+.px-5 {
+    margin-top: 15px;
+}
+
+.bg-personal {
+    background-image: url(../img/cookie-547636_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
